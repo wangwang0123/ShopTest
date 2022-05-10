@@ -1,0 +1,15 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "f1d9a7e8d50fbe1e93546f426d9e76d9",
+    "name" : "添加购物车接口异常测试",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

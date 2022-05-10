@@ -1,0 +1,97 @@
+{
+  "uid" : "1cd19687be36c397",
+  "name" : "添加成功",
+  "fullName" : "test_case.test_add_cart.TestAddCart#test_add_cart",
+  "historyId" : "a3f15aeb688458a163dd26dfa8a27b5a",
+  "time" : {
+    "start" : 1652186463712,
+    "stop" : 1652186463887,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32cacc6e4d632106",
+      "name" : "log",
+      "source" : "32cacc6e4d632106.txt",
+      "type" : "text/plain",
+      "size" : 79
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加购物车接口异常测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddCart"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "17855-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_add_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_name",
+    "value" : "'添加成功'"
+  }, {
+    "name" : "expect_business_code",
+    "value" : "''"
+  }, {
+    "name" : "expect_message",
+    "value" : "''"
+  }, {
+    "name" : "expect_status_code",
+    "value" : "200"
+  }, {
+    "name" : "num",
+    "value" : "1"
+  }, {
+    "name" : "sku_id",
+    "value" : "600"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1cd19687be36c397.json",
+  "parameterValues" : [ "'添加成功'", "''", "''", "200", "1", "600" ]
+}

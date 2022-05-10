@@ -1,0 +1,16 @@
+2022-05-10 20:38:38,403 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5875,请求num：1
+2022-05-10 20:38:38,696 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:6636655,请求num：1
+2022-05-10 20:38:38,895 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：99999999
+2022-05-10 20:38:39,107 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：0
+2022-05-10 20:38:39,355 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：-1
+2022-05-10 20:38:39,562 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:,请求num：1
+2022-05-10 20:38:39,742 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：
+2022-05-10 20:38:39,908 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:600,请求num：1
+2022-05-10 20:41:02,281 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5875,请求num：1
+2022-05-10 20:41:02,625 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:6636655,请求num：1
+2022-05-10 20:41:02,830 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：99999999
+2022-05-10 20:41:03,039 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：0
+2022-05-10 20:41:03,253 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：-1
+2022-05-10 20:41:03,429 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:,请求num：1
+2022-05-10 20:41:03,612 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:5173,请求num：
+2022-05-10 20:41:03,820 INFO [apiautotest] [test_add_cart.py (test_add_cart:22] - 请求sku:600,请求num：1
