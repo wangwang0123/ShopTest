@@ -9,6 +9,7 @@ import allure
 
 class TestAddCart:
 
+    logger = commons.logger.GetLogger().get_logger()
     test_data = load_excel('/data/cart_testdata.xlsx', '添加购物车')
     @allure.story('添加购物车接口异常测试')
     @allure.title('{case_name}')
@@ -19,7 +20,8 @@ class TestAddCart:
             'password': 'e10adc3949ba59abbe56e057f20f883e',
             'captcha': '1512'
         })
-        commons.logger.GetLogger().get_logger().info('请求sku:{0},请求num：{1}'.format(sku_id, num))
+        self.logger.info('请求sku:{0},请求num：{1}'.format(sku_id, num))
+        # commons.logger.GetLogger().get_logger().info('请求sku:{0},请求num：{1}'.format(sku_id, num))
         resp = order_api.OrderAPi(token=token).add_carts({'sku_id': sku_id, 'num': num})
         # print('res',resp.text)
         # resp = order_api.add_carts({'sku_id': sku_id, 'num': num}, token)
