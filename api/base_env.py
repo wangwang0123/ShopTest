@@ -1,11 +1,11 @@
 
 
-from commons.file_load import *
+from common.file_load import *
 
 
-def test_env_config(config_path='/config/env_test.yml'):
+def test_env_config(config_path='/config/http.yml'):
     return load_yaml_file(config_path)
 
 
 if __name__ == "__main__":
-    print(test_env_config()['http']['buyer'])
+    print(test_env_config()['buyer'])

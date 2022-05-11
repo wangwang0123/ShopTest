@@ -2,14 +2,14 @@ import pytest
 
 import api.user_api
 from api import user_api, order_api
-from commons.file_load import load_excel
-import commons.logger
+from common.file_load import load_excel
+import common.logger
 import allure
 
 
 class TestAddCart:
 
-    logger = commons.logger.GetLogger().get_logger()
+    logger = common.logger.GetLogger().get_logger()
     test_data = load_excel('/data/cart_testdata.xlsx', '添加购物车')
     @allure.story('添加购物车接口异常测试')
     @allure.title('{case_name}')

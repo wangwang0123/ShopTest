@@ -1,0 +1,4 @@
+basic: http://www.mtxshop.com:7000
+buyer: http://www.mtxshop.com:7002
+manager: http://www.mtxshop.com:7004
+seller: http://www.mtxshop.com:7003

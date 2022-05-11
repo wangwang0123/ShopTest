@@ -1,0 +1,5 @@
+mtxshop:
+  host: 121.42.15.146
+  password: Testfan#123
+  port: 3306
+  username: root

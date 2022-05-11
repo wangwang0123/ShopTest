@@ -6,7 +6,7 @@ from api.base_env import *
 
 def login(params: dict):
     params['uuid'] = str(uuid.uuid4())
-    return requests.post(test_env_config()['http']['buyer'] + '/passport/login', params=params)
+    return requests.post(test_env_config()['buyer'] + '/passport/login', params=params)
 
 
 def get_token(params: dict):

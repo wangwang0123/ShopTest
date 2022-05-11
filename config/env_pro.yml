@@ -1,0 +1,25 @@
+common:
+  buyerName: shamo
+  buyerPassword: '123456'
+  captcha: '1512'
+  mobile_code: '908908'
+  sellerName: shamoseller
+  sellerPassword: '123456'
+  managerName: admin
+  managerPassword: '111111'
+http:
+  basic: http://47.104.140.177:7000
+  buyer: http://47.104.140.177:7002
+  manager: http://47.104.140.177:7004
+  seller: http://47.104.140.177:7003
+db:
+  mtxshop:
+    host: 121.42.15.146
+    password: Testfan#123
+    port: 3306
+    username: root
+redis:
+  mtxshop:
+    host: 121.42.15.146
+    password: testfan
+    port: 6379

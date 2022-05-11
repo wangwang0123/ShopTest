@@ -2,7 +2,7 @@ import pytest
 
 import api.user_api
 from api import user_api, order_api
-from commons.file_load import load_excel
+from common.file_load import load_excel
 
 
 class TestAddCart:

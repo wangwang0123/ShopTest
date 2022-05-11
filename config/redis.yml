@@ -1,0 +1,4 @@
+mtxshop:
+  host: 121.42.15.146
+  password: testfan
+  port: 6379

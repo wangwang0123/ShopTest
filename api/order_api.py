@@ -4,7 +4,7 @@ from api.base_env import *
 
 class OrderAPi:
     def __init__(self, token):
-        self.url = test_env_config()['http']['buyer']
+        self.url = test_env_config()['buyer']
         self.token = token
 
     def add_carts(self, data: dict):
